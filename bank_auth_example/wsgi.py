@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bank_auth_example.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bank_auth_example.settings_prod')
 
 application = get_wsgi_application()
