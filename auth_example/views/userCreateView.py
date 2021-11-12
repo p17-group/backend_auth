@@ -1,8 +1,8 @@
-from rest_framework                            import status, views
-from rest_framework.response                   import Response
-from rest_framework_simplejwt.serializers      import TokenObtainPairSerializer
+from rest_framework                          import status, views
+from rest_framework.response                 import Response
+from rest_framework_simplejwt.serializers    import TokenObtainPairSerializer
 
-from auth_example.serializers.userSerializer   import UserSerializer
+from auth_example.serializers.userSerializer import UserSerializer
 
 class UserCreateView(views.APIView):
     def post(self, request, *args, **kwargs):
